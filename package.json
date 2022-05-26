@@ -1,0 +1,48 @@
+{
+  "name": "ahj_env_hw",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergeiKostiaev/ahj_env_hw.git"
+  },
+  "author": "KostiaevSV <skprod.info@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "babel-loader": "^8.2.5",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.16.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "html-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^28.1.0",
+    "live-server": "^1.2.2",
+    "mini-css-extract-plugin": "^2.6.0",
+    "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "terser-webpack-plugin": "4",
+    "webpack": "v4",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0",
+    "webpack-merge": "^5.8.0"
+  },
+  "scripts": {
+    "start": "webpack serve --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "core-js": "^3.22.7",
+    "push-dir": "^0.4.1"
+  },
+  "description": "[Информация о релизе Webpack 5](https://webpack.js.org/blog/2020-10-10-webpack-5-release/)",
+  "bugs": {
+    "url": "https://github.com/SergeiKostiaev/ahj_env_hw/issues"
+  },
+  "homepage": "https://github.com/SergeiKostiaev/ahj_env_hw#readme"
+}
